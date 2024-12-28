@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8024abe4-d1a5-4a8b-87d9-6c8b741c9787" name="Changes" comment="Added API003">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/GET/APITesting005_BDDStyleGET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/GET/APITesting006_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/GET/APITesting_GET_TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/POST/APITesting008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/POST/APITesting009_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-bddstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-get-NonBDDStyle.xml" afterDir="false" />
+    <list default="true" id="8024abe4-d1a5-4a8b-87d9-6c8b741c9787" name="Changes" comment="Added BDD and Non BDD Style">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/Integration/Notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/DELETE/APITesting012_DELETE_NonBddStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/PATCH/APITesting011_PATCH_NonBddStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/PUT/APITesting010_PUT_NonBddStyle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/POST/APITesting009_NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/com/RestAssuredBasics/POST/APITesting009_NonBDDStyle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +61,9 @@
     "TestNG.APITesting006_NonBDDStyle.test_NonBDDStyleGET_positive.executor": "Run",
     "TestNG.APITesting008.test_post_BDDStyle.executor": "Run",
     "TestNG.APITesting009_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting010_PUT_NonBddStyle.executor": "Run",
+    "TestNG.APITesting011_PATCH_NonBddStyle.executor": "Run",
+    "TestNG.APITesting012_DELETE_NonBddStyle.executor": "Run",
     "TestNG.APITesting_005_BDDStyleGET.test_GET_Req_POSITIVE.executor": "Run",
     "TestNG.C:/Users/MAYANK SINGH/IdeaProjects/ATB8xAPIAutomationPrograms/testng-bddstyle.xml.executor": "Run",
     "TestNG.C:/Users/MAYANK SINGH/IdeaProjects/ATB8xAPIAutomationPrograms/testng-get-NonBDDStyle.xml.executor": "Run",
@@ -80,60 +79,7 @@
       <recent name="C:\Users\MAYANK SINGH\IdeaProjects\ATB8xAPIAutomationPrograms" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.APITesting009_NonBDDStyle">
-    <configuration name="APITesting006_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8xAPIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.com.RestAssuredBasics.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.GET" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.GET.APITesting006_NonBDDStyle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITesting006_NonBDDStyle.test_NonBDDStyleGET_positive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8xAPIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.com.RestAssuredBasics.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.GET" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.GET.APITesting006_NonBDDStyle" />
-      <option name="METHOD_NAME" value="test_NonBDDStyleGET_positive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITesting008.test_post_BDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB8xAPIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.com.RestAssuredBasics.POST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.POST" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.POST.APITesting008" />
-      <option name="METHOD_NAME" value="test_post_BDDStyle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.APITesting012_DELETE_NonBddStyle">
     <configuration name="APITesting009_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIAutomationPrograms" />
       <extension name="coverage">
@@ -144,6 +90,57 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.POST" />
       <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.POST.APITesting009_NonBDDStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting010_PUT_NonBddStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.com.RestAssuredBasics.PUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.PUT" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.PUT.APITesting010_PUT_NonBddStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting011_PATCH_NonBddStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.com.RestAssuredBasics.PATCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.PATCH" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.PATCH.APITesting011_PATCH_NonBddStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting012_DELETE_NonBddStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.com.RestAssuredBasics.DELETE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.com.RestAssuredBasics.DELETE" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.com.RestAssuredBasics.DELETE.APITesting012_DELETE_NonBddStyle" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -163,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITesting012_DELETE_NonBddStyle" />
+        <item itemvalue="TestNG.APITesting011_PATCH_NonBddStyle" />
+        <item itemvalue="TestNG.APITesting010_PUT_NonBddStyle" />
         <item itemvalue="TestNG.APITesting009_NonBDDStyle" />
-        <item itemvalue="TestNG.APITesting008.test_post_BDDStyle" />
         <item itemvalue="TestNG.C:/Users/MAYANK SINGH/IdeaProjects/ATB8xAPIAutomationPrograms/testng-get-NonBDDStyle.xml" />
-        <item itemvalue="TestNG.APITesting006_NonBDDStyle" />
-        <item itemvalue="TestNG.APITesting006_NonBDDStyle.test_NonBDDStyleGET_positive" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +201,22 @@
       <option name="project" value="LOCAL" />
       <updated>1734279476455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added BDD and Non BDD Style">
+      <option name="closed" value="true" />
+      <created>1735094990773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735094990773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="15th Project Maven" />
     <MESSAGE value="Added API002" />
     <MESSAGE value="Added API003" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added API003" />
+    <MESSAGE value="Added BDD and Non BDD Style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BDD and Non BDD Style" />
   </component>
 </project>

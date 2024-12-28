@@ -21,7 +21,7 @@ public class APITesting009_NonBDDStyle {
          r.contentType(ContentType.JSON).log().all();
          r.body(payload);
 
-         r.when().post();
+         r.when().log().all().post();
          r.then().log().all().statusCode(200);
 
 
